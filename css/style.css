@@ -151,7 +151,7 @@ header nav.desktop-menu ul li a{
 
 .sorteios{
     background-color: var(--color-bg);
-    padding: 30px 40px 60px 40px;
+    padding: 30px 2% 60px 2%;
     color: var(--color-text);
 }
 
