@@ -421,8 +421,28 @@ footer .footer-text p{
     text-decoration: none;
 }
 
-.active{
+.active-link{
     color: yellow!important;
+}
+
+/***PAGE CREDITS STYLE***/
+.buy_credits{
+    background: var(--color-bg);
+    padding: 40px;
+    color: var(--color-text);
+}
+
+.buy_credits label{
+    margin-right: 10px;
+    border-radius: 5px !important;
+}
+
+.buy_credits label input{
+    visibility: hidden;
+}
+
+.buy_credits label input:checked{
+    background-color: orange;
 }
 
 /***MEDIA QUERIES***/
